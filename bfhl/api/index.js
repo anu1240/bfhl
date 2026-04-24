@@ -5,11 +5,9 @@ const app = express();
 app.use(cors());
 app.use(express.json());
 
-// ── CHANGE THESE ──────────────────────────────────────────────────
-const USER_ID        = "yourname_ddmmyyyy";        // e.g. "johndoe_17091999"
-const EMAIL_ID       = "your.email@srmist.edu.in";
-const COLLEGE_ROLL   = "RA2111003010000";           // your actual roll number
-// ─────────────────────────────────────────────────────────────────
+const USER_ID        = "anubhavkhetan_04022004";        
+const EMAIL_ID       = "ak3775@srmist.edu.in";
+const COLLEGE_ROLL   = "RA2311003011525";           
 
 function isValidEdge(entry) {
   return /^[A-Z]->[A-Z]$/.test(entry);
